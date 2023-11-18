@@ -1,0 +1,34 @@
+div.bannerLayout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+div.bannerIntroduce {
+    display: flex;
+    flex-direction: column;
+}
+
+div.frameBanner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 14em;
+    width: 14em;
+    margin: 1em 0;
+    border-radius: 100%;
+}
+
+img.avatarBanner {
+    overflow: hidden;
+}
+
+@media (min-width: 800px) {
+    div.frameBanner {
+        height: 17em;
+        width: 17em;
+    }
+}
+
